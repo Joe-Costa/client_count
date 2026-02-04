@@ -7,6 +7,12 @@ List clients connected to a Qumulo cluster and find optimal nodes for new connec
 - Python 3.6+
 - Qumulo cluster credentials (default: `~/.qfsd_cred`)
 
+## Credential file format
+
+The format is the same as the `.qfsd_cred` format created by `qq --host cluster login -u user`
+
+`{"bearer_token": "session-v1:foo_bar_baz_boop_bap_bop", "version": 1}`
+
 ## Usage
 
 ```bash
