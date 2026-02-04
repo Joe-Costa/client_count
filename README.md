@@ -44,9 +44,9 @@ python list_clients.py -c <cluster> --show-next-best-nodes --exclude-list <file>
 ## Exclude List
 
 The exclude list is a new line separated list of IPs, any nodes that have a conenction from one of those IPs will be excluded from the output of the tool 
-when the option `--exclude-list` is used.<br>
+when the option `--exclude-list` is used.<br><br>
 One possible use of this function would be to help automate connections of demanding, high performance clients that should not share a node with other high performance clients.
-<br>
+<br><br>
 Review the file `exclude_list.txt` for a sample
 
 ## Options
