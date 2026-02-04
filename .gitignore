@@ -1,0 +1,20 @@
+# Credentials
+.qfsd_cred
+*.cred
+bearer_token*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Local files
+exclude_list.txt
+LLM-API-Guide/
