@@ -39,9 +39,9 @@ python list_clients.py -c <cluster> --show-next-best-nodes --exclude-list <file>
 
 ## Examples
 
-### List connected clients
+### List connected clients ( Add `-j` for JSON output )
 ```bash
-$ python list_clients.py -c music.eng.qumulo.com
+$ python list_clients.py -c myqumulo.company.com
 
 Client IP            Protocols            Connections  Nodes
 ----------------------------------------------------------------------
@@ -53,9 +53,9 @@ Total unique clients: 20
 Total connections: 30
 ```
 
-### Find best nodes for new connections
+### Find best nodes for new connections ( Add `-j` for JSON output )
 ```bash
-$ python list_clients.py -c music.eng.qumulo.com --show-next-best-nodes
+$ python list_clients.py -c myqumulo.company.com --show-next-best-nodes
 
 Node     Connections
 --------------------
@@ -65,12 +65,12 @@ Node     Connections
 6        8
 ```
 
-### Exclude nodes with specific clients
+### Exclude nodes with specific clients ( Add `-j` for JSON output )
 ```bash
 $ cat exclude_list.txt
 10.220.150.148
 
-$ python list_clients.py -c music.eng.qumulo.com --show-next-best-nodes --exclude-list exclude_list.txt
+$ python list_clients.py -c myqumulo.company.com --show-next-best-nodes --exclude-list exclude_list.txt
 
 Node     Connections
 --------------------
