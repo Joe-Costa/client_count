@@ -1,4 +1,4 @@
-# Qumulo Client List
+# Qumulo Client Connection List Tool
 
 List clients connected to a Qumulo cluster and find optimal nodes for new connections.
 
