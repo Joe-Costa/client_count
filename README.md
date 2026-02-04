@@ -13,6 +13,16 @@ The format is the same as the `.qfsd_cred` format created by `qq --host cluster 
 
 `{"bearer_token": "session-v1:foo_bar_baz_boop_bap_bop", "version": 1}`
 
+## RBAC privileges required 
+
+The only privilege required is `PRIVILEGE_NETWORK_READ`
+
+## Helpful Qumulo Care Articles:
+
+[How to get an Access Token](https://docs.qumulo.com/administrator-guide/connecting-to-external-services/creating-using-access-tokens-to-authenticate-external-services-qumulo-core.html) 
+
+[Qumulo Role Based Access Control](https://care.qumulo.com/hc/en-us/articles/360036591633-Role-Based-Access-Control-RBAC-with-Qumulo-Core#managing-roles-by-using-the-web-ui-0-7)
+
 ## Usage
 
 ```bash
